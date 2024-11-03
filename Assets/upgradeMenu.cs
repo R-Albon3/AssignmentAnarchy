@@ -70,7 +70,7 @@ public class upgradeMenu : MonoBehaviour
 
     public void UpgradePlayerHearts()
     {
-        playerHealthScript.playerHearts = playerHealthScript.playerHearts - 1;
+        playerHealthScript.playerHearts = playerHealthScript.playerHearts + 1;
         ResumeGame();
     }
 }

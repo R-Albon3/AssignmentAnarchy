@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyAI : MonoBehaviour
+public class bossScript : MonoBehaviour
 {
 
     private  GameObject player;
     
     public float enemySpeed = 2f;
     private float distanceToPlayer;
+    public float bossHealth = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,14 +22,17 @@ public class enemyAI : MonoBehaviour
         distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
         Vector2 directionToPlayer = player.transform.position - transform.position;
         transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, enemySpeed * Time.deltaTime);
+
+        if(bossHealth <= 0){
+            Application.Quit();
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D coll){
         GameObject collidedWith = coll.gameObject;
         if(collidedWith.CompareTag("Pencil")){
-            Destroy(gameObject);
-        } else if (collidedWith.CompareTag("Player")){
-            Destroy(gameObject);
+            bossHealth = bossHealth - 1;
         }
     }
 }

@@ -64,10 +64,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
+    <Compile Include="Assets\playerCollision.cs" />
     <Compile Include="Assets\playerHealth.cs" />
+    <Compile Include="Assets\bossScript.cs" />
     <Compile Include="Assets\enemyAI.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
+    <Compile Include="Assets\pencilCollision.cs" />
+    <Compile Include="Assets\enemySpawner.cs" />
     <Compile Include="Assets\playerProjectiles.cs" />
+    <Compile Include="Assets\bossSpawn.cs" />
     <Compile Include="Assets\playerMovement.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\cameraMovement.cs" />
