@@ -9,6 +9,7 @@ public class playerMovement : MonoBehaviour
     private float moveX, moveY;
     private Rigidbody2D playerBody;
     private SpriteRenderer playerSprite;
+    public Animator animator;
 
     void Start()
     {
@@ -27,6 +28,8 @@ public class playerMovement : MonoBehaviour
         //Sets the playerBody velocity equal to current movement directions multiplied by the set speed variable
         //Also uses normalize to prevent diagonal movement from being too fast
         playerBody.velocity = new Vector2(moveX, moveY).normalized * playerSpeed;
+        //Setting animator playerSpeed to play correct animations
+        animator.SetFloat("playerSpeed", Mathf.Abs(playerBody.velocity.magnitude));
         //If statement to flip the sprite depending on the current player direction
         if(moveX < 0){
             playerSprite.flipX = true;

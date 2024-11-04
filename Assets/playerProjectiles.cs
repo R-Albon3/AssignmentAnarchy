@@ -13,6 +13,13 @@ public class playerProjectiles : MonoBehaviour
     public float projectileSpeed = 10f; 
     private float shotTimer = 0f; 
 
+    public gameAudio gameAudio;
+
+    void Start()
+    {
+        gameAudio = GameObject.FindGameObjectWithTag("Audio").GetComponent<gameAudio>(); 
+    }
+
     void Update()
     {
         //Keeping track of time since last shot
@@ -21,6 +28,7 @@ public class playerProjectiles : MonoBehaviour
         //Fires a new projectile if enough time has elapsed
         if (shotTimer >= fireRate)
         {
+            gameAudio.PlaySFX(gameAudio.shootingPencil);
             //Create a projectile object from the pencil prefab and grab its corresponding Rigidbody2D to edit
             GameObject pencilProjectile = Instantiate(pencilPrefab, playerPosition.position, playerPosition.rotation);
             Rigidbody2D pencilRB = pencilProjectile.GetComponent<Rigidbody2D>();
@@ -40,6 +48,8 @@ public class playerProjectiles : MonoBehaviour
             shotTimer = 0f; 
             //Destroy the projectile after the set time
             Destroy(pencilProjectile, 5);
+
+
             
         }
     }

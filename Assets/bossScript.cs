@@ -10,10 +10,13 @@ public class bossScript : MonoBehaviour
     public float enemySpeed = 2f;
     private float distanceToPlayer;
     public float bossHealth = 5;
+
+    public gameAudio gameAudio;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        gameAudio = GameObject.FindGameObjectWithTag("Audio").GetComponent<gameAudio>();
     }
 
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class bossScript : MonoBehaviour
         GameObject collidedWith = coll.gameObject;
         if(collidedWith.CompareTag("Pencil")){
             bossHealth = bossHealth - 1;
+            gameAudio.PlaySFX(gameAudio.paperTear);
         }
     }
 }
