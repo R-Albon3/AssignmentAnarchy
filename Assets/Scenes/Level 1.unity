@@ -12305,7 +12305,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300122, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12665,7 +12665,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300122, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17110,7 +17110,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300122, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20227,7 +20227,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300126, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23397,7 +23397,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300126, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24994,7 +24994,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300082, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28088,7 +28088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.32000732}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1854588073
@@ -29480,7 +29480,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300122, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -53781,7 +53781,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300122, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -54411,7 +54411,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300082, guid: c3a40e1c46727b94e959990527f8e7fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -54941,19 +54941,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1468225328963599685, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: maximumSpawn
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1468225328963599685, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: minimumSpawn
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2009668498214970107, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: bossTime
-      value: 149
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3472721383218562413, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: maximumSpawn
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3472721383218562413, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: minimumSpawn
@@ -54961,11 +54961,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4070505508241273828, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: maximumSpawn
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4070505508241273828, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: minimumSpawn
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4124275702174142987, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: currentHearts.Array.data[0]
@@ -55001,11 +55001,11 @@ PrefabInstance:
       objectReference: {fileID: 1453084365}
     - target: {fileID: 4602074431478914363, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: maximumSpawn
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4602074431478914363, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: minimumSpawn
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6752068176128361560, guid: 9f6f90633426fd248af7f07584b3fb8f, type: 3}
       propertyPath: m_SortingOrder

@@ -6,7 +6,7 @@ public class bossSpawn : MonoBehaviour
 {
     //Grabbing the boss prefab and setting time for boss spawn
     public GameObject bossAssignment;
-    public float bossTime = 0.0f;
+    public float bossTime = -1.0f;
     
     void Update()
     {
