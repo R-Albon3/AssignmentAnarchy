@@ -348,6 +348,7 @@ GameObject:
   - component: {fileID: -6981810584189740068}
   - component: {fileID: 2526783922787085789}
   - component: {fileID: 2224824745755772388}
+  - component: {fileID: 3973880890656542645}
   m_Layer: 7
   m_Name: Pencil
   m_TagString: Pencil
@@ -469,6 +470,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0465456c04b9e984e9d769322f6992c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!210 &3973880890656542645
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7349969431079706960}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 6
+  m_SortAtRoot: 0
 --- !u!1 &7539604701249862272
 GameObject:
   m_ObjectHideFlags: 0

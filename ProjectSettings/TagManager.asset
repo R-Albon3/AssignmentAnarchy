@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Pencil
   - Boss
+  - Audio
   layers:
   - Default
   - TransparentFX

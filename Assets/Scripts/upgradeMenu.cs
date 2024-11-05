@@ -26,6 +26,7 @@ public class upgradeMenu : MonoBehaviour
     
     void Update()
     {
+        //Checks if the game is paused and pauses it after 30 seconds
         if (isPaused == false){
             timePassed = timePassed + Time.deltaTime;
 
@@ -34,14 +35,14 @@ public class upgradeMenu : MonoBehaviour
             }
         }
     }
-
+    //Pause game function to show the upgrade overlay
     public void PauseGame()
     {
         upgradeScreen.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
     }
-
+    //Resume game function to set time passed back to 0 and remove overlay
     public void ResumeGame()
     {
         timePassed = 0;
@@ -49,7 +50,7 @@ public class upgradeMenu : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
     }
-
+    //Each individual upgrade function which changes the respective values in each script based on which upgrade is chosen
     public void UpgradeFireRate()
     {
         playerProjectileScript.fireRate = playerProjectileScript.fireRate * 0.75f;

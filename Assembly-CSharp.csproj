@@ -63,23 +63,27 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\bossHealthBar.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
-    <Compile Include="Assets\playerCollision.cs" />
-    <Compile Include="Assets\playerHealth.cs" />
-    <Compile Include="Assets\bossScript.cs" />
-    <Compile Include="Assets\enemyAI.cs" />
-    <Compile Include="Assets\gameAudio.cs" />
+    <Compile Include="Assets\Scripts\playerProjectiles.cs" />
+    <Compile Include="Assets\Scripts\upgradeMenu.cs" />
+    <Compile Include="Assets\Scripts\winScript.cs" />
+    <Compile Include="Assets\Scripts\enemyAI.cs" />
+    <Compile Include="Assets\Scripts\pencilCollision.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
-    <Compile Include="Assets\pencilCollision.cs" />
-    <Compile Include="Assets\enemySpawner.cs" />
-    <Compile Include="Assets\playerProjectiles.cs" />
-    <Compile Include="Assets\bossSpawn.cs" />
-    <Compile Include="Assets\playerMovement.cs" />
+    <Compile Include="Assets\Scripts\cameraMovement.cs" />
+    <Compile Include="Assets\Scripts\bossScript.cs" />
+    <Compile Include="Assets\Scripts\enemySpawner.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
-    <Compile Include="Assets\cameraMovement.cs" />
+    <Compile Include="Assets\Scripts\lossMenu.cs" />
+    <Compile Include="Assets\Scripts\bossSpawn.cs" />
+    <Compile Include="Assets\Scripts\gameAudio.cs" />
+    <Compile Include="Assets\Scripts\playerHealth.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
+    <Compile Include="Assets\Scripts\playerCollision.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
-    <Compile Include="Assets\upgradeMenu.cs" />
+    <Compile Include="Assets\Scripts\mainMenu.cs" />
+    <Compile Include="Assets\Scripts\playerMovement.cs" />
     <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
   </ItemGroup>
   <ItemGroup>

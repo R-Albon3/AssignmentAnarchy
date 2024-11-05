@@ -17,6 +17,7 @@ public class playerProjectiles : MonoBehaviour
 
     void Start()
     {
+        //Getting the audio source to play sound
         gameAudio = GameObject.FindGameObjectWithTag("Audio").GetComponent<gameAudio>(); 
     }
 
@@ -28,6 +29,7 @@ public class playerProjectiles : MonoBehaviour
         //Fires a new projectile if enough time has elapsed
         if (shotTimer >= fireRate)
         {
+            //Playing the shooting sfx
             gameAudio.PlaySFX(gameAudio.shootingPencil);
             //Create a projectile object from the pencil prefab and grab its corresponding Rigidbody2D to edit
             GameObject pencilProjectile = Instantiate(pencilPrefab, playerPosition.position, playerPosition.rotation);
